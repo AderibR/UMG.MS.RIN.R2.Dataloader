@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMG.MS.RIN.R2.DATALOADER", "UMG.MS.RIN.R2.DATALOADER\UMG.MS.RIN.R2.DATALOADER.csproj", "{A908B5C2-4CD1-4444-8B97-04BC8B4B2EE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMG.MS.RIN.R2.Dataloader", "UMG.MS.RIN.R2.Dataloader\UMG.MS.RIN.R2.Dataloader.csproj", "{A908B5C2-4CD1-4444-8B97-04BC8B4B2EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMG.MS.RIN.R2.Dataloader.UnitTests", "UMG.MS.RIN.R2.Dataloader.UnitTests\UMG.MS.RIN.R2.Dataloader.UnitTests.csproj", "{B73F8451-5AD5-4CC7-B626-ADEC74AE155C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMG.MS.RIN.R2.Dataloader.FunctionalTests", "UMG.MS.RIN.R2.Dataloader.FunctionalTests\UMG.MS.RIN.R2.Dataloader.FunctionalTests.csproj", "{9F63D8CD-7DB8-4E60-A247-B18880014FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMG.MS.RIN.R2.DataloaderService", "UMG.MS.RIN.R2.DataloaderService\UMG.MS.RIN.R2.DataloaderService.csproj", "{7DE7E6C6-893D-43EB-9F80-87D07C2981BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{A908B5C2-4CD1-4444-8B97-04BC8B4B2EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A908B5C2-4CD1-4444-8B97-04BC8B4B2EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A908B5C2-4CD1-4444-8B97-04BC8B4B2EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73F8451-5AD5-4CC7-B626-ADEC74AE155C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73F8451-5AD5-4CC7-B626-ADEC74AE155C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73F8451-5AD5-4CC7-B626-ADEC74AE155C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73F8451-5AD5-4CC7-B626-ADEC74AE155C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F63D8CD-7DB8-4E60-A247-B18880014FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F63D8CD-7DB8-4E60-A247-B18880014FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F63D8CD-7DB8-4E60-A247-B18880014FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F63D8CD-7DB8-4E60-A247-B18880014FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE7E6C6-893D-43EB-9F80-87D07C2981BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE7E6C6-893D-43EB-9F80-87D07C2981BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE7E6C6-893D-43EB-9F80-87D07C2981BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE7E6C6-893D-43EB-9F80-87D07C2981BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
